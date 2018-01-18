@@ -2,8 +2,8 @@
 
 - 提供一个网页，可以在其中将英文字符转换为『紫罗兰永恒花园』（『ヴァイオレット・エヴァーガーデン』）中的文字。
 - 包含组件：
-  - VioletEvergardenFont（字体）：`font/`
-  - VioletEvergardenConverter（转换页面）：`index.html` 和 `web/`
+  - `VioletEvergardenConverter`（转换页面）：`index.html` 和 `EvergardenConverterPage/`
+  - `VioletEvergardenFont`（字体）：`font/`
 
 # 来源/感谢
 
@@ -25,17 +25,26 @@
 
 # 文件(夹)说明
 
-- png-capital：制作后的大写字母
-- png-lowercase：制作后的小写字母
-- png-numsym：制作后的数字和符号
-- snap-bili-lowercase：番剧研究所的文章中提取的小写字母
-- snap-pv1-lowercase：PV1 中截取的小写字母（背景文字画面）
-- snap-pv4-capital：PV4 中截取的大写字母（打字机键盘画面）
-- main.fcp：FontCreator 11.0 Pro 的工程文件。
-- index.html 和 web：转换网页相关文件。
+- `png-capital`：制作后的大写字母
+- `png-lowercase`：制作后的小写字母
+- `png-numsym`：制作后的数字和符号
+- `snap-bili-lowercase`：番剧研究所的文章中提取的小写字母
+- `snap-pv1-lowercase`：PV1 中截取的小写字母（背景文字画面）
+- `snap-pv4-capital`：PV4 中截取的大写字母（打字机键盘画面）
+- `main.fcp`：FontCreator 11.0 Pro 的工程文件。
+- `index.html` 和 `EvergardenConverterPage`：转换网页相关文件。
 
 # 已收录字符及其属性
 
+## 字体格式
+
+格式 | 轮廓 | OpenType | 间距表 | 字形名 | 小尺寸 | XML
+:-:|:-:|:-:|:-:|:-:|:-:|:-:
+TTF | TrueType | NO | new | auto | def | NO
+OTF | CFF | YES | - | - | - | NO
+WOFF | CFF | YES | - | - | - | YES
+
+## 字体位置和尺寸
 - 所有字符左侧和右侧边距均为 20。
 - 数字底端为 Baseline ，顶端介于 CapHeight 和 x-Height 之间。
 - 大写字母底端为 Baseline ，顶端为 CapHeight 。
@@ -84,6 +93,7 @@ C | W | H | X | Y | C | W | H | X | Y
 
 # 协议 LICENSE
 
-- 原始文字设计来自『ヴァイオレット・エヴァーガーデン』。
+- 网页背景图和原始文字设计来自『[ヴァイオレット・エヴァーガーデン](http://violet-evergarden.jp/)』。
+- 本项目字体文件参与制作者：[神楽坂雅詩](https://github.com/kagurazakayashi)、[0wew0](https://github.com/wang124yi)
 - 你不能在未经原始文字设计者和本项目作者许可的前提下商业化分发或闭源分发本项目的副本或衍生作品。
 - 你必须在副本和衍生作品中包含原始作品信息和本项目作者/来源信息。

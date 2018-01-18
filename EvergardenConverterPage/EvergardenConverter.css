@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'VioletEvergardenFont';
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(../font/VioletEvergardenFont.woff) format('woff'),
+      url(../font/VioletEvergardenFont.otf) format('opentype'),
+      url(../font/VioletEvergardenFont.ttf) format('truetype');
+}
+#veconv_box {
+    width: 100%;
+    text-align: center;
+    color: goldenrod;
+    font-size: 12pt;
+    overflow-x: auto;
+}
+#veconv_box input {
+    border: 1px solid goldenrod;
+    cursor: pointer;
+}
+#veconv_box select {
+    border: none;
+    border-bottom: 1px solid goldenrod;
+    color: goldenrod;
+    font-size: 12pt;
+    cursor: pointer;
+}
+#veconv_box b {
+    color: #000000;
+}
+#veconv_box a {
+    color: goldenrod;
+}
+#veconv_box2 {
+    width: 1280px;
+    height: 720px;
+    background: lightgray url(vlcsnap21h25m59s933.jpg) no-repeat left top;
+    position: absolute;
+    left: calc((100% - 1280px) / 2);
+    box-shadow: 0px 5px 5px lightgray;
+}
+#veconv_box2 textarea {
+    position: relative;
+    color: #000000;
+    border: none;
+    left: 200px;
+    top: 150px;
+    width: 750px;
+    height: 450px;
+}
+#veconv_b {
+    font-family: "VioletEvergardenFont";
+    text-shadow:#FFF 1px 0 0,#FFF 0 1px 0,#FFF -1px 0 0,#FFF 0 -1px 0;
+    background-color: transparent;
+    font-size: 18pt;
+    display: inline;
+}
+#veconv_a {
+    background-color: #FFF;
+    font-size: 14pt;
+    display: none;
+}
+#veconv_box2b {
+    height: 720px;
+}
+#veconv_license {
+    color: grey;
+    font-size: 10pt;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EvergardenConverter</title>
+</head>
+<body>
+<link rel="stylesheet" href="EvergardenConverterPage/EvergardenConverter.css" type="text/css" />
+<div id="veconv_box">
+<p>
+    <b>EvergardenConverter</b>&emsp;
+    Mode:<select id="veconv_fontfamily" name="veconv_fontfamily">
+        <option value="#">VioletEvergardenDefault</option>
+    </select>&emsp;
+    Font size:<select id="veconv_fontsize" name="veconv_fontsize" onchange="veconv_fontsizech(this);">
+        <option value="8pt">8pt</option>
+        <option value="10pt">10pt</option>
+        <option value="12pt">12pt</option>
+        <option value="14pt">14pt</option>
+        <option value="18pt" selected>18pt</option>
+        <option value="20pt">20pt</option>
+        <option value="22pt">22pt</option>
+        <option value="14pt">24pt</option>
+        <option value="16pt">26pt</option>
+        <option value="28pt">28pt</option>
+        <option value="30pt">30pt</option>
+        <option value="32pt">32pt</option>
+    </select>&emsp;
+    <input name="veconv_editmode" type="checkbox" id="veconv_editmode" onchange="veconv_editmodechange();" />Edit&emsp;
+    <input name="veconv_bg" type="checkbox" id="veconv_bg" onchange="veconv_bgchange(this);"  checked />Background Image&emsp;
+    <a href="https://github.com/kagurazakayashi/EvergardenConverter" target="_blank">Github</a> 
+</p>
+    <div id="veconv_box2">
+        <textarea name="veconv_b" rows="10" maxlength="2000" id="veconv_b" oninput="veconv_syncb2a();" onclick="veconv_onClickB();"></textarea>
+        <textarea name="veconv_a" rows="10" maxlength="2000" id="veconv_a" oninput="veconv_synca2b();" onblur="veconv_onBlurA();">Perception of the physical world does not necessarily result in a universal reaction among receivers (see emotions), but varies depending up on one's tendency handle the situation, how the situation relates to the receiver’s past experience, and any number of other factors. Feelings are also known as a state of consciousness, such as that resulting from emotions, sentiments or desires.</textarea>
+    </div>
+    <div id="veconv_box2b"></div>
+    <p>
+        <div id="veconv_license">网页背景图和原始文字设计来自『<a href="http://violet-evergarden.jp/" target="_blank">ヴァイオレット・エヴァーガーデン</a>』<br/>本项目字体文件参与制作者：<a href="https://github.com/kagurazakayashi" target="_blank">神楽坂雅詩</a>、<a href="https://github.com/wang124yi" target="_blank">0wew0</a></div>
+    </p>
+</div>
+<script type="text/javascript" src="EvergardenConverterPage/EvergardenConverter.js"></script>
+</body>
+</html>
