@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'VioletEvergardenFont';
-    src: local('Material Icons'),
-      local('MaterialIcons-Regular'),
+    src: local('MaterialIcons-Regular'),
       url(../font/VioletEvergardenFont.woff) format('woff'),
       url(../font/VioletEvergardenFont.otf) format('opentype'),
       url(../font/VioletEvergardenFont.ttf) format('truetype');
